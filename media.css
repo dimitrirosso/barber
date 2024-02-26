@@ -1,0 +1,73 @@
+@media screen and (min-width: 700px) {
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 22rem;
+        align-items: center;
+        align-items: start;
+    }
+    header{
+        display: flex;
+    }
+
+    ul{
+        display: flex;
+        width: 8rem;
+        gap: 1rem;
+    }
+
+
+    .logo{
+        margin-right: 7rem;
+        margin-top: 1rem;
+    }
+
+    .principal{
+        display: flex;
+        margin-top: -150px;
+    }
+
+    .principal h1{
+        font-size: 3rem;
+        width: 60rem;
+    }
+
+    .principal p{
+        font-size: 20px;
+        margin-top: -10px;
+        margin-right: 80px;
+    }
+
+    .principal input{
+        width: 15rem;
+        height: 3rem;
+        margin-right: 5rem;
+    }
+
+    .fotos{
+        width: 550px;
+        margin-top: 150px;
+        margin-right: 100px;
+    }
+
+    .sobre{
+       margin-left: 900px;
+       margin-top: -1000px;
+    }
+
+    nav input{
+        display: block;
+        background-color: transparent;
+        border: 2px solid white;
+    }
+
+    .sobre p{
+        width: 450px;
+        font-size: 20px;
+    }
+
+    .sobre h1{
+        font-size: 40px;
+    }
+}
