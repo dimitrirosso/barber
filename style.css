@@ -11,8 +11,12 @@ body{
 
 li{
     display: inline-block;
-    margin: 6px;
+    margin: 10px;
     cursor: pointer;
+}
+
+ul{
+    margin-right: 30px;
 }
 
 header{
@@ -22,7 +26,7 @@ header{
 }
 
 .logo{
-    margin-left: 30px;
+    margin-left: 45px;
     width: 150px;
     margin-top: 25px;
 }
